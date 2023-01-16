@@ -1,0 +1,10 @@
+for N in range(516):
+    b = f'{N:b}'
+    if N%2 ==0:
+        b = b[:-2]+"110"
+    else:
+        b = b[:-2]+"001"
+        
+    if int(b, 2) > 160:
+        print(int(b,2))
+        break
