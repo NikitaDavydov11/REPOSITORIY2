@@ -55,7 +55,25 @@ stateDiagram-v2
 Ctrl + F в параметрах ставим галочки "учитывать регистр" + "только слово целиком"
 количество результатов будет показываться
 
+12 Задание:
+
 13 Задание: ![image](https://user-images.githubusercontent.com/114381781/208363218-862fbd27-d835-463d-b2c2-9eade2b7afd2.png)
+
+14 Задание: 
+a='0123456789abcde'
+for x in a:
+    f=int(f'123{x}5',15)+int(f'1{x}233',15)
+    if  f%14 ==0:
+        print(f//14)
+        break
+        
+        
+        
+ 15 Задание: 
+ for a in range(1,1000):
+    if all(((x%2==0) <= (x%3!=0)) or (x+a>=100) for x in range(1,100)):
+        print(a)
+        break
 
 
 19 Задание:
